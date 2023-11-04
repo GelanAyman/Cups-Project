@@ -1,0 +1,296 @@
+h3
+{
+        text-align: center;
+        position: relative;
+}
+
+
+.content
+{
+        margin: 10px;
+}
+
+.navbar
+{
+        /* position: fixed !important; */
+        background-color: #fff;
+        width: 100%;
+        z-index: 1;
+}
+
+.home
+{
+        background-image: url(../../img/051p52xl.png);
+        width: 100%;
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+}
+.homeBG
+{
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 100%;
+}
+.homeText
+{
+        color: #fff;
+        position: absolute;
+        margin-top: 80px;
+        margin-left: 50px;
+        font-size: 30px;
+        text-align: center;
+        font-weight: bolder;
+}
+.homeText .start
+{
+        background-color: #863A9A;
+        color: #fff;
+        border-radius: 30px;
+        width: 200px;
+        height: 50px;
+}
+.homeText .more
+{
+        color: #863A9A;
+        background-color: #fff;
+        border-radius: 30px;
+        width: 200px;
+        height: 50px;
+}
+
+
+.services, 
+.prices,
+.categories,
+.reviews
+{
+        margin: 50px;
+}
+
+.line
+{
+        height: 3px;
+        width: 50px;
+        background-color: #863A9A;
+        margin: auto;
+}
+.services .card
+{
+        border: 2px solid rgba(134, 58, 154, 0.5);
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        height: 500px;
+        margin-top: 50px;
+        text-align: center;
+}
+.services .cardData
+{
+        margin: auto;
+}
+.services .card a
+{
+        color: #863A9A;
+        text-decoration: none;
+}
+.services .card:hover
+{
+        background-color: rgba(0, 0, 0, 0.2);
+}
+
+i
+{
+        color: #863A9A;
+        font-size: 30px;
+        margin: 10px;
+}
+
+
+
+.prices
+{
+        padding-bottom: 60px;
+}
+.prices .card
+{
+        margin-top: 50px;
+        text-align: center;
+        border-radius: 20px;
+        padding: 10px;
+}
+.prices img
+{
+        height: 300px;
+        border-radius: 20px;
+}
+
+
+.price
+{
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 100%;
+        right: 0;
+        top: 0;
+        border-radius: 20px;
+        text-align: center;
+        visibility: hidden;
+}
+.priceText
+{
+        color: white;
+        margin: 100px auto;
+}
+.priceText button
+{
+        background-color: #863A9A;
+        border-radius: 30px;
+        width: 100px;
+        height: 35px;
+        color: white;
+}
+
+.card:hover .price
+{
+        visibility: visible;
+}
+
+.prices .more
+{
+        position: absolute;
+        margin: 30px auto 0 auto;
+        background-color: #fff;
+        color: #863A9A;
+        border-radius: 30px;
+        border: 1px solid #863A9A;
+        width: 100px;
+        height: 50px;
+        right: 50%;
+        font-weight: bolder;
+}
+
+.prices .more:hover
+{
+        background-color: #863A9A;
+        color: #fff;
+        border: 1px solid #fff;
+}
+
+
+
+.categories .card
+{
+        border: 2px solid rgba(134, 58, 154, 0.5);
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        height: 200px;
+        margin-top: 50px;
+        text-align: center;
+}
+
+.categories .card button
+{
+        background-color: #863A9A;
+        color: #fff;
+        border-radius: 30px;
+        width: 200px;
+        height: 50px;
+        margin: 0 auto;
+}
+.categories .card button:hover
+{
+        background-color: #fff;
+        color: #863A9A;
+}
+
+
+.mini
+{
+        position: relative;
+        width: 100%;
+        height: 300px;
+        background-image: url(../../img/bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+}
+.bg
+{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(136, 59, 155,0.7);
+}
+.data
+{
+        color: #fff;
+        font-size: larger;
+        font-weight: bolder;
+        text-align: center;
+        width: 80%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+.data .col
+{
+        width: 200px;
+}
+.data i
+{
+        color: #fff;
+}
+
+.reviews .background
+{
+        position: relative;
+        width: 100%;
+        height: 500px;
+        background-image: url(../../img/bgg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        margin-top: 50px;
+        color: #fff;
+        font-weight: bolder;
+}
+.reviews .cards
+{
+        color: #fff;
+        font-size: larger;
+        font-weight: bolder;
+        text-align: center;
+        width: 80%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+
+.footer
+{
+        text-align: center;
+}
+.footer ul
+{
+        list-style: none;
+}
+.footer ul li
+{
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #863A9A;
+}
+.footer i
+{
+        color: #fff;
+        margin: 8px 6px;
+}
+.footer p
+{
+        color: #863A9A;
+}
